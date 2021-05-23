@@ -1,0 +1,16 @@
+<?php 
+   // Параметры для подключения
+    $db_host = "localhost"; 
+    $db_user = "root"; // Логин БД
+    $db_password = "root"; // Пароль БД
+    $db_base = 'lessons'; // Имя БД
+    $db_table = "cards"; // Имя Таблицы БД
+    
+    // Подключение к базе данных
+    $mysqli = new mysqli($db_host,$db_user,$db_password,$db_base);
+
+    // Если есть ошибка соединения, выводим её и убиваем подключение
+	if ($mysqli->connect_error) {
+	    die('Ошибка : ('. $mysqli->connect_errno .') '. $mysqli->connect_error);
+	}
+?>

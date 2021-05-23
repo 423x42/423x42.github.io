@@ -1,0 +1,94 @@
+
+.logo{
+    color: white;
+    font-family: "Gilroy";
+    display:flex;
+    justify-content: center;
+}
+.logo h1{
+    padding: 5px;
+    
+}
+.content{
+    height:100vh;
+   
+}
+
+header{
+    background-color:#1B1C1A;
+}
+.text{
+    font-size:15px;
+ display: flex;
+    justify-content: center;
+    color:black;
+    font-family: "Gilroy";
+   
+    
+    
+    
+}
+.logs{
+    border-radius:10px;
+    border-top:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    margin-top:40px;
+    
+}
+
+.delite_button {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    display:flex;
+    justify-content: center;
+}
+.delite_button input{
+    outline: none;
+    border-radius: 3px;
+    font-family: "Gilroy";
+    color: white;
+    background: #2E2F2D;
+    width:150px;
+    border:2px solid #2E2F2D;
+}
+.delite_button input:hover{
+    
+    
+}
+.contents_wrapper{
+    padding-top: 50px;
+}
+.border_cont{
+   text-align: center;
+    border-bottom:1px solid black;
+}
+.border_cont{
+    font-family: "Gilroy";
+    color: white;
+    font-weight: bold;
+}
+.texs{
+    font-family: "Gilroy";
+    display: flex;
+    justify-content: center;
+    
+    border-bottom: 2px solid black;
+    border-radius:10px;
+    font-size:15px;
+}
+.textst{
+  font-family: "Gilroy";
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size:15px;  
+}
+.logis{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.logis h1{
+    font-weight: bolder;
+}
